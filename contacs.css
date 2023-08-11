@@ -1,0 +1,53 @@
+body {
+    background-color: rgb(17, 15, 15);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.contacts {
+    padding: 10px 50px;
+}
+
+img {
+    width: 50px;
+    height: 50px;
+}
+
+footer img {
+    height: 40px;
+    width: 40px;
+}
+
+/*posicionando as imagens do rodape no centro*/
+footer {
+    display: flex;
+    justify-content: center;
+    padding: 380px;
+}
+
+/*espaçamento entre os elementos do footer no geral*/
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+/*espaçamento entre as imagens do rodapé e o nome dos elemntos abaixo*/
+footer p {
+    margin-top: 2px;
+}
+
+h1 {
+    display: flex;
+    padding-top: 30px;
+}

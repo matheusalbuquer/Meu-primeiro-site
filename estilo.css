@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/*parte do anv bar do site */
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 18px;
+}
+
+/*NOME DA PARTE DOP NAV BAR APENAS OS NOMESS*/
+a {
+
+    color: white;
+    text-decoration: none;
+}
+
+/*trabalhadndo com a img*/
+header img {
+    width: 170px;
+    height: 170px;
+    border-radius: 190px;
+    border: 5px solid rgb(32, 161, 32)
+}
+
+/*centralizaçao da img*/
+.center {
+    text-align: center;
+    padding: 19px;
+}
+
+/*trabalhando com o titulo (h1)*/
+
+h1 {
+    color: rgb(32, 161, 32);
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 70px;
+    margin-top: 10px;
+}
+
+/*etamanho da imagem do rodape*/
+footer img {
+    height: 40px;
+    width: 40px;
+}
+/*posicionando as imagens do rodape no centro*/
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+/*espaçamento entre os elementos do footer no geral*/
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+/*espaçamento entre as imagens do rodapé e o nome dos elemntos abaixo*/
+footer p {
+    margin-top: 2px;
+}
+
+/*encaixotar mais um pouco o coneudo da pag*/
+.container {
+    padding: 0px 50px;
+}
+
+/*colorir o nav quando o mouse passar em cima dele*/
+nav a:hover {
+    color: green;
+}

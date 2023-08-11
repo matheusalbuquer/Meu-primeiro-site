@@ -1,0 +1,28 @@
+body {
+    background-color: rgb(17, 15, 15);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: green;
+}
+
+h2 {
+    padding-top: 20px;
+}
+
+.juntar {
+    padding: 10px 50px;
+}
